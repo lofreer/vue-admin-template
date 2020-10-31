@@ -4,8 +4,8 @@
       <Sidebar />
     </div>
     <div class="layout-header">
-        <Header />
-      </div>
+      <Header />
+    </div>
     <div class="layout-main">
       <Main />
     </div>
@@ -29,7 +29,7 @@ export default {
 <style lang="less" scoped>
 .layout-wrap {
   height: 100%;
-  padding: 100px 0 0 200px;
+  padding: 56px 0 0 200px;
 
   .layout-sidebar {
     position: fixed;
@@ -37,6 +37,7 @@ export default {
     top: 0;
     bottom: 0;
     width: 200px;
+    background: rgb(41, 44, 51);
     overflow: auto;
   }
   .layout-header {
@@ -44,10 +45,14 @@ export default {
     left: 200px;
     top: 0;
     right: 0;
-    height: 100px;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: 0 2px 6px 0 rgba(136, 156, 176, 0.2);
   }
   .layout-main {
     height: 100%;
+    background: rgb(239, 239, 239);
     padding: 20px;
     overflow: auto;
   }

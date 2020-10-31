@@ -76,6 +76,7 @@ q:before, q:after, blockquote:before, blockquote:after {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,

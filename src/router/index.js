@@ -24,9 +24,22 @@ const routes = [
         component: () => import('@/views/catalog/page2'),
         meta: {title: '页面二'}
       },
-    ]
+      {
+        path: '/403',
+        component: () => import('../views/403.vue'),
+        meta: {title: '403'}
+      },
+      {
+        path: '/404',
+        component: () => import('../views/404.vue'),
+        meta: {title: '404'}
+      }
+    ],
   },
-
+  {
+    path: '*',
+    redirect: '/404'
+  }
 ]
 
 const router = new VueRouter({

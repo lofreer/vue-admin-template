@@ -213,6 +213,17 @@ export default {
     flex: 1;
     border: none;
 
+    .is-active /deep/ .el-submenu__title {
+      color: #fff !important;
+
+      i {
+        color: #fff;
+      }
+    }
+    .el-submenu.is-active:not(.is-opened) /deep/ .el-submenu__title {
+      background-color: #303030 !important;
+    }
+
     /deep/ .el-menu {
       background: #333;
       box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.45);

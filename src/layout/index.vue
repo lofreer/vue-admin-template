@@ -37,7 +37,7 @@ export default {
     top: 0;
     bottom: 0;
     width: 200px;
-    background: rgb(41, 44, 51);
+    background: #404040;
     overflow: auto;
   }
   .layout-header {

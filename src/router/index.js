@@ -15,10 +15,15 @@ const routes = [
         meta: {title: '首页'}
       },
       {
-        path: '/about',
-        component: () => import('@/views/about'),
-        meta: {title: '关于'}
-      }
+        path: '/page1',
+        component: () => import('@/views/catalog/page1'),
+        meta: {title: '页面一'}
+      },
+      {
+        path: '/page2',
+        component: () => import('@/views/catalog/page2'),
+        meta: {title: '页面二'}
+      },
     ]
   },
 

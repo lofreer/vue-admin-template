@@ -29,7 +29,7 @@ export default {
 <style lang="less" scoped>
 .layout-wrap {
   height: 100%;
-  padding: 56px 0 0 200px;
+  padding: 80px 0 0 200px;
 
   .layout-sidebar {
     position: fixed;
@@ -45,7 +45,7 @@ export default {
     left: 200px;
     top: 0;
     right: 0;
-    height: 60px;
+    height: 80px;
     background: #fff;
     border-bottom: 1px solid #dcdcdc;
     box-shadow: 0 2px 6px 0 rgba(136, 156, 176, 0.2);

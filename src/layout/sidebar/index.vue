@@ -3,14 +3,12 @@
     <div class="logo">
       <p>LOGO</p>
     </div>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link> -->
     <div class="menu-wrap">
       <el-menu
         :default-active="onRoutes"
         class="el-menu-vertical-demo"
-        @open="handleOpen"
-        @close="handleClose"
         background-color="#404040"
         text-color="#d2d2d2"
         active-text-color="#fff"
@@ -63,158 +61,82 @@
 const menus = [
   {
     icon: "icon icon-home",
-    index: "/dashboard",
-    title: "总览",
+    index: "/home",
+    title: "首页",
   },
   {
     icon: "icon icon-base",
     index: "/base",
-    title: "基础数据",
+    title: "菜单目录一",
     subs: [
       {
-        index: "/college/list",
-        title: "院校管理",
+        index: "/page1",
+        title: "子菜单一",
       },
       {
-        index: "/major/list",
-        title: "专业管理",
+        index: "/page2",
+        title: "子菜单二",
       },
       {
         index: "/subject/list",
-        title: "科目管理",
+        title: "子菜单三",
       },
       {
         index: "/teacher/list",
-        title: "教师管理",
+        title: "子菜单四",
       },
     ],
   },
   {
     icon: "icon icon-content",
     index: "/content",
-    title: "内容管理",
+    title: "菜单目录二",
     subs: [
       {
         index: "/article/list",
-        title: "经验干货",
+        title: "子菜单一",
       },
       {
         index: "/exam/list",
-        title: "在线题库",
+        title: "子菜单二",
       },
       {
         index: "/referenceExam/list",
-        title: "参考书题库",
+        title: "子菜单三",
       },
       {
         index: "/read/list",
-        title: "阅读资料",
-      },
-      {
-        index: "/course/list",
-        title: "在线课程",
-      },
-      {
-        index: "/material/list",
-        title: "实体资料",
-      },
-      {
-        index: "/plan/list",
-        title: "即日计划",
-      },
-      {
-        index: "/res",
-        title: "资源管理",
-        subs: [
-          {
-            index: "/resource/paper",
-            title: "试卷管理",
-          },
-          {
-            index: "/resource/trash",
-            title: "内容回收站",
-          },
-        ],
+        title: "子菜单四",
       },
     ],
   },
   {
     icon: 'icon icon-member',
     index: '/application',
-    title: '应用管理',
+    title: '菜单目录三',
     subs: [
       {
-        index: '/ad',
-        title: '广告管理',
-        subs: [
-          {
-            index: '/ad/list',
-            title: '广告列表',
-          },
-          {
-            index: '/ad/position',
-            title: '广告位置',
-          }
-        ]
-      },
-      {
         index: '/client',
-        title: '客户端管理'
+        title: '子菜单一'
       },
       {
         index: '/configure',
-        title: '系统配置'
+        title: '子菜单二'
       },
     ]
   },
   {
     icon: 'icon icon-operation',
     index: '/operation',
-    title: '运营管理',
+    title: '菜单目录四',
     subs: [
       {
         index: '/vipProduct/list',
-        title: 'VIP产品管理',
+        title: '子菜单一',
       },
       {
         index: '/coupon',
-        title: '优惠券管理',
-      },
-      {
-        index: '/agent',
-        title: '分销代理管理',
-        subs: [
-          {
-            index: '/agent/list',
-            title: '代理成员',
-          },
-          {
-            index: '/agent/product',
-            title: '代理产品',
-          },
-          {
-            index: '/agent/order',
-            title: '代理订单',
-          },
-        ]
-      },
-      {
-        index: '/channel',
-        title: '分销渠道商管理',
-        subs: [
-          {
-            index: '/channel/list',
-            title: '渠道商成员',
-          },
-          {
-            index: '/channel/product',
-            title: '渠道商产品',
-          },
-          {
-            index: '/channel/order',
-            title: '渠道商订单',
-          },
-        ]
+        title: '子菜单二',
       },
     ]
   },

@@ -5,11 +5,11 @@
 import { Message } from 'element-ui'  //引用饿了么UI消息组件
 import axios from 'axios' //引用axios
 
-const product = 'http://box-api.koudaikaoyan.com'
-const daily = 'http://box-api.koudaikaoyan.com'
+const product = 'http://api.xxx.com'
+const daily = 'http://api.xxx.com'
 let host = daily
 // 正式环境判断
-if (location && location.host.includes('box-admin.koudaikaoyan.com')) {
+if (location && location.host.includes('admin.xxx.com')) {
   host = product
 }
 // 本地开发环境

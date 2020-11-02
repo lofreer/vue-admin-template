@@ -26,15 +26,20 @@ const routes = [
       },
       {
         path: '/403',
-        component: () => import('../views/403.vue'),
+        component: () => import('@/views/403.vue'),
         meta: {title: '403'}
       },
       {
         path: '/404',
-        component: () => import('../views/404.vue'),
+        component: () => import('@/views/404.vue'),
         meta: {title: '404'}
       }
     ],
+  },
+  {
+    path: '/login',
+    component: () => import('@/views/login.vue'),
+    meta: {title: '登录'}
   },
   {
     path: '*',

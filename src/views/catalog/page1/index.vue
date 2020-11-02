@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrap">
     <div class="page-header">
-      <span class="title">商品分类</span>
+      <span class="title">列表页</span>
       <div class="action-wrap">
         <el-button type="primary">操作按钮</el-button>
       </div>
@@ -75,7 +75,7 @@
           </el-table-column>
         </el-table>
         <div class="footer">
-          <div class="action-box">
+          <div class="action-wrap">
             <el-button type="primary">批量按钮一</el-button>
             <el-button type="primary">批量按钮二</el-button>
             <el-button type="primary">批量按钮三</el-button>
@@ -212,7 +212,7 @@ export default {
 
 <style lang="less" scoped>
 .page-wrap {
-  // height: 100%;
+  min-height: 100%;
   background: #fff;
   padding: 0 20px 20px;
 }

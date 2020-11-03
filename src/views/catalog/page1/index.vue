@@ -281,7 +281,7 @@ export default {
   margin-top: 20px;
 
   .filters {
-    background: rgba(250, 250, 250, 1);
+    background: #f5f7fa;
     padding: 20px 10px 0;
     // margin-top: 10px;
 

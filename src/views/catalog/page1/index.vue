@@ -155,6 +155,54 @@ export default {
           address: "上海市普陀区金沙江路 1516 弄",
           zip: 200333,
         },
+        {
+          date: "2016-05-02",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1518 弄",
+          zip: 200333,
+        },
+        {
+          date: "2016-05-04",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1517 弄",
+          zip: 200333,
+        },
+        {
+          date: "2016-05-01",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1519 弄",
+          zip: 200333,
+        },
+        {
+          date: "2016-05-03",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1516 弄",
+          zip: 200333,
+        },
+        {
+          date: "2016-05-01",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1519 弄",
+          zip: 200333,
+        },
+        {
+          date: "2016-05-03",
+          name: "王小虎",
+          province: "上海",
+          city: "普陀区",
+          address: "上海市普陀区金沙江路 1516 弄",
+          zip: 200333,
+        },
       ],
     };
   },
@@ -214,13 +262,12 @@ export default {
 .page-wrap {
   min-height: 100%;
   background: #fff;
-  padding: 0 20px 20px;
+  padding: 20px 20px 20px;
 }
 .page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
 
   .title {
     line-height: 1;
@@ -231,9 +278,12 @@ export default {
   }
 }
 .page-main {
+  margin-top: 20px;
 
   .filters {
-    margin-top: 10px;
+    background: rgba(250, 250, 250, 1);
+    padding: 20px 10px 0;
+    // margin-top: 10px;
 
     .search-wrap {
       display: flex;
@@ -251,7 +301,7 @@ export default {
     }
   }
   .results {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .footer {
     display: flex;

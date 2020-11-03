@@ -52,7 +52,7 @@ export default {
   }
   .layout-main {
     height: 100%;
-    background: rgb(239, 239, 239);
+    background: #faf8fa;
     padding: 20px;
     overflow: auto;
   }
